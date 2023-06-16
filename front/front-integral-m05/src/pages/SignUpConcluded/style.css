@@ -1,0 +1,55 @@
+.container-sign-up-concluded {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container-sign-up-concluded-left {
+    display: flex;
+    flex-direction: column;
+
+    min-height: 100vh;
+    width: 33%;
+    padding: 174px 49px;
+
+    background-color: #F0F0F5;
+}
+
+.container-sign-up-concluded-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 67%;
+}
+
+.container-message-sign-up-concluded {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 460px;
+    width: 640px;
+    border-radius: 30px;
+
+    margin-bottom: 30px;
+
+    background-color: #F0F0F5;
+}
+
+.container-message-sign-up-concluded>img {
+    height: 104px;
+    width: 104px;
+
+    margin-bottom: 24px;
+}
+
+.container-message-sign-up-concluded>h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+}

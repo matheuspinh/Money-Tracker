@@ -1,0 +1,115 @@
+.charges-table-lines-grouping {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  height: 56px;
+
+  border-bottom: 1px solid var(--secondary-teal-light);
+}
+
+.charges-table-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+
+  color: var(--grayscale-3);
+}
+
+.description-column {
+  text-align: center;
+}
+
+.line-start {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.charge-status-name {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+#button-charge-line {
+  all: unset;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+#button-charge-line:hover {
+  opacity: 0.6;
+}
+
+#button-charge-line img {
+  width: 26px;
+}
+
+#button-charge-line h3 {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+}
+
+.gap-area-line-icons {
+  gap: 24px;
+}
+
+.text-red {
+  color: var(--feedback-error-normal);
+}
+
+.line-status-default {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 8px;
+}
+
+.pending-status-charge {
+  width: 77px;
+  height: 19px;
+
+  background-color: var(--secondary-yellow-light);
+}
+
+.overdue-status-charge {
+  width: 67px;
+  height: 19px;
+
+  background-color: var(--secondary-maroon-light);
+}
+
+.paid-status-charge {
+  width: 48px;
+  height: 19px;
+
+  background-color: var(--secondary-teal-light);
+}
+
+.status-text {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.id-charge:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

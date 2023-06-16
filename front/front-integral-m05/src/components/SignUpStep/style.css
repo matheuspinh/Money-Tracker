@@ -1,0 +1,58 @@
+.container-sign-up-step {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 21px;
+
+}
+
+.container-sign-up-step>span {
+    margin-left: 57px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+
+    position: relative;
+}
+
+.title-sign-up-step {
+    display: flex;
+    align-items: center;
+}
+
+.title-sign-up-step>img {
+    display: block;
+    height: 32px;
+    width: 32px;
+    margin: 2px;
+
+    margin-right: 24px;
+}
+
+.title-sign-up-step>img:hover {
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.line:after {
+    content: '';
+
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: -42.5px;
+
+    width: 3px;
+    height: 40px;
+    background: #0E8750;
+    margin: 2px;
+}
+
+.title-sign-up-step>p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #0E8750;
+}

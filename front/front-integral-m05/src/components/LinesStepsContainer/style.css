@@ -1,0 +1,13 @@
+.line-steps-container-component {
+    position: relative;
+
+    top: 40px;
+
+}
+
+.line-steps-container-component>img {}
+
+.line-steps-container-component>img:hover {
+    cursor: pointer;
+    scale: 1.05;
+}

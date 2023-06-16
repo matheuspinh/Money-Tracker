@@ -1,0 +1,38 @@
+.single-client-container {
+  display: flex;
+  flex-direction: row;
+
+  width: 100vw;
+  min-height: 100vh;
+
+  background-color: var(--grayscale-8);
+}
+
+.single-client-page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.client-name-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+
+  width: 1115px;
+  height: 82px;
+
+  gap: 16px;
+}
+
+.client-name-bar img {
+  width: 32px;
+}
+
+.client-name-single-client-page {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+}

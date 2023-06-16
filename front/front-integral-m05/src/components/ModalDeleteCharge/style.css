@@ -1,0 +1,105 @@
+.modal-background-delete-charge {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    overflow: hidden;
+    background: rgba(145, 154, 150, 0.3);
+    backdrop-filter: blur(2px);
+}
+
+.modal-content-delete-charge {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 30px;
+
+    background-color: #FFFFFF;
+}
+
+.modal-close-button-delete-charge {
+    align-self: flex-end;
+}
+
+.modal-close-button-delete-charge>img {
+    position: relative;
+    top: 20px;
+    right: 30px;
+
+    float: right;
+
+    height: 18px;
+    width: 18px;
+}
+
+.modal-close-button-delete-charge>img:hover {
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.modal-content-delete-charge>img {
+    height: 250px;
+
+    margin: 48px 230px 5px 230px;
+}
+
+.modal-content-delete-charge>p {
+    margin-bottom: 27px;
+
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: var(--feedback-warning-dark);
+}
+
+.container-buttons-delete-charge {
+    display: flex;
+
+    margin-bottom: 85px;
+
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+}
+
+.container-buttons-delete-charge span {
+    display: block;
+    padding: 0 35px;
+
+    border-radius: 4px;
+}
+
+
+.container-buttons-delete-charge>span:first-child {
+    margin-right: 30px;
+
+    color: var(--feedback-error-dark);
+    background-color: var(--feedback-error-light);
+}
+
+.container-buttons-delete-charge>span:last-child {
+    color: var(--main-green-dark);
+    background-color: var(--main-green-light);
+}
+
+.container-buttons-delete-charge span:hover {
+    cursor: pointer;
+
+    box-shadow: 1px 1px 10px rgb(182, 182, 182);
+}

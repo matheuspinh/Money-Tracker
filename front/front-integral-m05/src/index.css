@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Nunito:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: 'Montserrat', 'Nunito', sans-serif, Arial;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --main-pink-dark: #75003B;
+  --main-pink-normal: #DA0175;
+  --main-pink-light: #F5A8D0;
+
+  --main-green-dark: #034a2a;
+  --main-green-normal: #0E8750;
+  --main-green-light: #ACD9C5;
+
+  --secondary-maroon-normal: #971D1D;
+  --secondary-maroon-light: #FFEFEF;
+  --secondary-maroon-dimmed: #E8CACA;
+
+  --secondary-yellow-normal: #C5A605;
+  --secondary-yellow-light: #FCF6DC;
+  --secondary-yellow-dimmed: #E3DEC8;
+
+  --secondary-teal-normal: #1FA7AF;
+  --secondary-teal-light: #EEF6F6;
+  --secondary-teal-dimmed: #D2DFE0;
+
+  --feedback-success-dark: #243F80;
+  --feedback-success-normal: #4F78E3;
+  --feedback-success-light: #C3D4FE;
+
+  --feedback-warning-dark: #CC7800;
+  --feedback-warning-normal: #EF8F00;
+  --feedback-warning-light: #F5D9B0;
+
+  --feedback-error-dark: #AE1100;
+  --feedback-error-normal: #E70000;
+  --feedback-error-light: #F2D6D0;
+
+  --feedback-error-illustration-dark: #F48C8C;
+  --feedback-error-illustration-light: #F5BDB2;
+
+  --grayscale-1: #343447;
+  --grayscale-2: #3F3F55;
+  --grayscale-3: #747488;
+  --grayscale-4: #9B9BB2;
+  --grayscale-5: #C8C8D7;
+  --grayscale-6: #DEDEE9;
+  --grayscale-7: #F0F0F5;
+  --grayscale-8: #F8F8F9;
+}

@@ -1,0 +1,112 @@
+.filter-component-container {
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 330px;
+  height: 405px;
+  background-color: #fff;
+  border-radius: 30px;
+
+  filter: drop-shadow(0px 4px 42px rgba(0, 0, 0, 0.2));
+}
+
+.filter-component-container::before {
+  content: '';
+  display: block;
+
+  position: relative;
+
+  left: 120px;
+  bottom: 10px;
+
+  width: 20px;
+  height: 20px;
+
+  rotate: 45deg;
+
+  background-color: #fff;
+
+  z-index: 0;
+}
+
+.filter-box-content {
+  display: flex;
+  flex-direction: column;
+  width: 264px;
+  align-items: center;
+}
+
+.filter-box-content span {
+  font-family: Nunito;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--grayscale-2);
+}
+
+.radio-filter-box label {
+  width: 264px;
+  height: 48px;
+  text-align: left;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--grayscale-2)
+}
+
+.radio-filter-box input {
+  height: 23px;
+  width: 23px;
+}
+
+.radio-filter-box input::before {
+  position: relative;
+  top: -1px;
+  left: 0px;
+}
+
+.container-input-radio-component {
+  border-radius: 10px;
+}
+
+.filter-date-box input {
+  width: 264px;
+}
+
+.filter-button-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-button-box button {
+  width: 266px;
+  height: 33px;
+  margin-bottom: 7px;
+  border-radius: 10px;
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  border-style: none;
+}
+
+.filter-button-box .filter-confirm-button {
+  cursor: pointer;
+  background-color: var(--main-pink-normal);
+  color: #fff;
+}
+
+.filter-button-box .filter-clear-button {
+  cursor: pointer;
+  background-color: var(--grayscale-8);
+  color: var(--main-green-normal);
+  border: 1px solid var(--main-green-normal);
+}

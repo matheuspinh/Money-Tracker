@@ -1,0 +1,58 @@
+.feedback-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 112px;
+    bottom: 66px;
+    height: 54px;
+    width: auto;
+    border-radius: 10px;
+    text-align: left;
+
+    padding: 0 15px;
+
+    color: var(--feedback-success-dark);
+    background-color: var(--feedback-success-light);
+}
+
+.feedback-box .feedback-icon {
+    height: 24px;
+    width: 24px;
+}
+
+.feedback-box .close-feedback {
+    height: 14px;
+    width: 24px;
+}
+
+.feedback-box .close-feedback:hover {
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.feedback-box p {
+    min-width: 190px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+.fail {
+    color: var(--feedback-error-dark);
+    background-color: var(--feedback-error-light);
+}
+
+.fail img:last-child {
+    height: 20px;
+}
+
+.fail img:last-child:hover {
+    scale: 1.1;
+}

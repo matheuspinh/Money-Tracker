@@ -1,0 +1,44 @@
+.tools-bar {
+  width: 108px;
+  min-height: 100vh;
+
+  padding-top: 45px;
+
+  background-color: #F0F0F5;
+}
+
+.tools-bar-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  width: 100%;
+
+  padding: 0px 10px;
+
+  gap: 72px
+}
+
+.option-tools-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+
+  width: 108px;
+  height: 82px;
+  cursor: pointer;
+}
+
+.option-icon {
+  width: 48px;
+}
+
+.option-name {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+
+  color: #343447;
+}

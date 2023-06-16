@@ -1,0 +1,36 @@
+.home-container {
+  display: flex;
+  flex-direction: row;
+
+  width: 100vw;
+  min-height: 100vh;
+
+  background-color: var(--grayscale-8);
+}
+
+.home-page-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-charges-summary {
+  display: flex;
+  align-self: center;
+
+  max-width: 1268px;
+}
+
+.container-charge-details-page {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+
+  max-width: 1268px;
+}
+
+.container-clients-card-resume {
+  display: flex;
+  justify-content: center;
+
+  margin: 32px 0;
+}

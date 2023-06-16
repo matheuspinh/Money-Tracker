@@ -1,0 +1,67 @@
+.charges-container {
+    display: flex;
+    flex-direction: row;
+
+    width: 100vw;
+    min-height: 100vh;
+
+    background-color: var(--grayscale-8);
+}
+
+.charges-page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.charges-title-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1116px;
+
+    height: 46px;
+
+    margin-top: 22px;
+    margin-bottom: 26px;
+}
+
+.charges-title-message {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 16px;
+}
+
+.charges-filter-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 16px;
+}
+
+.charges-title-message img {
+    width: 32px;
+}
+
+.charges-title-message h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+
+    color: var(--grayscale-2);
+}
+
+.charges-filter-bar input:focus {
+    outline: 2px solid var(--main-pink-normal);
+}
+
+.charges-filter-bar img {
+    cursor: pointer;
+}

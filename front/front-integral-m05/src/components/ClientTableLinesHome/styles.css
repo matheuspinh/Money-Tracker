@@ -1,0 +1,51 @@
+.table-clients-lines {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 556px;
+
+  border-bottom: 1px solid #EFF0F7;
+}
+
+.table-clients-line {
+  display: flex;
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+
+  color: var(--grayscale-3);
+
+  width: 33.33%;
+  height: 56px;
+
+  padding: 0px 26px;
+}
+
+.line-start {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.table-clients-line.line-start:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.line-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.line-end {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}

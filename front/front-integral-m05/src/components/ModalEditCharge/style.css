@@ -1,0 +1,175 @@
+.modal-background-edit-charge {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    overflow: hidden;
+    background: rgba(145, 154, 150, 0.3);
+    backdrop-filter: blur(2px);
+}
+
+.modal-content-edit-charge {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 30px;
+
+    background-color: #FFFFFF;
+}
+
+
+.modal-close-button-edit-charge>img {
+    position: relative;
+    top: 20px;
+    right: 30px;
+
+    float: right;
+
+    height: 18px;
+    width: 18px;
+}
+
+.modal-close-button-edit-charge>img:hover {
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.modal-content-edit-charge>form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    min-height: 100%;
+    width: 100%;
+
+    padding: 25px 50px;
+}
+
+.modal-content-edit-charge>form input {
+    width: auto;
+}
+
+.modal-content-edit-charge>form>button {
+    align-self: center;
+}
+
+.header-form-edit-charge {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.header-form-edit-charge>img {
+    height: 40px;
+}
+
+.header-form-edit-charge>h2 {
+    margin: 16px;
+
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--grayscale-1)
+}
+
+.container-edit-charge-input-numbers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.message-error-edit-charge {
+    position: relative;
+    bottom: 20px;
+    right: -2px;
+    height: 5px;
+    width: 250px;
+    margin-bottom: 5px;
+
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--feedback-error-normal);
+}
+
+.container-edit-type-charge>p {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.container-edit-type-charge {
+    margin-bottom: 100px;
+}
+
+.container-edit-charge-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-edit-charge-buttons>button:first-child {
+    color: var(--main-green-normal);
+    background-color: var(--grayscale-8);
+    border: 1px solid var(--grayscale-6);
+}
+
+.container-edit-charge-buttons>button:first-child:hover {
+    background-color: rgba(201, 201, 201, 0.356);
+}
+
+.modal-content-edit-charge .value-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-content-edit-charge label {
+    margin-bottom: 6px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #344054;
+}
+
+.modal-content-edit-charge input {
+    padding: 10px 14px;
+    margin-bottom: 20px;
+
+    width: 368px;
+    height: 44px;
+
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.modal-content-edit-charge input::placeholder {
+    color: #667085;
+}
+
+.value-box>.input-avoid {
+    border: 1px solid var(--feedback-error-normal);
+}
+
+.value-box input:focus {
+    outline: 1.5px solid rgb(119, 117, 117);
+}

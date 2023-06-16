@@ -1,0 +1,23 @@
+.button-component {
+    all: unset;
+
+    height: 33px;
+    padding: 4px 40px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+
+    background-color: var(--main-pink-normal);
+
+    font-family: 'Nunito';
+    text-align: center;
+    color: #F8F8F9;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+}
+
+.button-component:hover {
+    opacity: 0.85;
+    cursor: pointer;
+}

@@ -1,0 +1,48 @@
+.summary-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 20px;
+  color: var(--grayscale-2);
+  width: 364px;
+  height: 111px;
+  border-radius: 30px;
+  padding: 23px 40px;
+}
+
+.summary-container.paid {
+  background-color: var(--secondary-teal-light);
+}
+
+.summary-container.overdue {
+  background-color: var(--secondary-maroon-light);
+}
+
+.summary-container.predicted {
+  background-color: var(--secondary-yellow-light);
+}
+
+.summary-container img {
+  height: 33px;
+}
+
+.summary-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.summary-container h2 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  margin-bottom: 11px;
+}
+
+.summary-container h1 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+}

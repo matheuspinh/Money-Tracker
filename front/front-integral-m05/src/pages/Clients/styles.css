@@ -1,0 +1,78 @@
+.home-container {
+    display: flex;
+    flex-direction: row;
+
+    width: 100vw;
+    min-height: 100vh;
+
+    background-color: var(--grayscale-8);
+}
+
+.home-page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-charges-summary {
+    display: flex;
+    align-self: center;
+
+    max-width: 1268px;
+}
+
+.container-charge-details-page {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+
+    max-width: 1268px;
+}
+
+.container-clients-card-resume {
+    display: flex;
+    justify-content: center;
+
+    margin: 32px 0px;
+}
+
+.client-options-bar {
+    display: flex;
+    width: 1116px;
+    height: 46px;
+    margin: 24px;
+}
+
+.client-options-bar .client-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 16px;
+
+}
+
+.client-options-bar h1 {
+    color: var(--grayscale-2);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 130%;
+    margin-right: 309px
+}
+
+.client-options-bar button {
+    width: 264px;
+    height: 33px;
+    margin-right: 16px;
+}
+
+.client-options-bar .filter-icon {
+    margin-right: 16px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.client-options-bar input:focus {
+    outline: 2px solid var(--main-pink-normal);
+}

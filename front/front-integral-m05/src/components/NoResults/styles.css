@@ -1,0 +1,33 @@
+.noResults-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.noResults {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.noResults h2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+
+  color: #F08889;
+
+  margin-top: 6px;
+}
+
+.noResults h3 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+
+  color: var(--grayscale-4);
+
+  margin-top: 16px;
+}

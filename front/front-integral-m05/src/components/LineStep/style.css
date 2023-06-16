@@ -1,0 +1,8 @@
+.step-line-img-component {
+    margin: 0 4px;
+}
+
+.step-line-img-component img {
+    height: 6px;
+    width: 150px;
+}
